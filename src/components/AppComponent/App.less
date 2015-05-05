@@ -1,0 +1,54 @@
+@import "../../variables.less";
+
+@minWidth: 3;
+
+.FlexboxCenter(@content) {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: @content;
+    justify-content: @content;
+}
+
+.Color(@color) { color: @color; } 
+.lightBlue { .Color(@lightBlue); }
+.navy      { .Color(@navy); }
+.red       { .Color(@red); }
+.white     { .Color(@white); }
+.blue      { .Color(@blue); }
+.gray      { .Color(@gray); }
+.black     { .Color(@black); }
+
+.SysMargin  { margin: @margin; }
+.SysPadding { padding: @padding; }
+.SysHeight  { height: @height; }
+
+
+.site-container {
+    font-family: 'Roboto', 'sans-serif';
+    .SysHeight;
+    cursor: default;
+}
+
+.left-div {
+    .FlexboxCenter(center);
+    .SysPadding;
+    .SysHeight;
+
+    @media @mobile { text-align: center; }
+    @media @tablet { text-align: center; }
+}
+
+.right-div {
+    .SysPadding;
+    .SysHeight;
+    background: @navy;
+
+    @media @mobile { text-align: center; }
+    @media @tablet { text-align: center; }
+}
+
+.modal-primary { margin: 0 auto; } 
+
+

@@ -1,0 +1,22 @@
+{
+    "jobs" : [
+        { "image": "assets/img/in-logo.gif", "desc": "Software Engineering Intern", "date": "Summer 2015", "style": {"width": 150}},
+        { "image": "assets/img/texas-state-logo.gif", "desc": "Research Assistant", "date": "August 2014 - Present", "style": {"width": 100}},
+        { "image": "assets/img/usaa-logo.gif", "desc": "Software Engineering Intern", "date": "Summer 2014", "style": {"width": 100}},
+        { "image": "assets/img/texas-state-logo.gif", "desc": "Instructional Assistant", "date": "September 2013 - Summer 2014", "style": {"width": 100}},
+        { "image": "assets/img/polycom-logo.gif", "desc": "Localization Software Intern", "date": "Summer 2013", "style": {"width": 130}}
+    ],
+    "projects" : [
+        { "title": "Google Search with TF-IDF Implementation", "github": "https://github.com/sangm/search-rerank", "live": "http://dm.sangm.io"},
+        { "title": "Tutoring Check-in", "live": "http://node.sangm.net" },
+        { "title": "TwitterSearch", "github": "https://github.com/sangm/twitter-search.git", "youtube": "https://www.youtube.com/watch?v=DgvQhfjD2cY" }
+    ],
+    "social" : [
+        { "network": "github", "src": "https://github.com/sangm" }, 
+        { "network": "linkedin", "src":"https://linkedin.com/in/sangmercado" }
+    ],
+    "email" : {
+        "network": "inbox", 
+        "src": "sang.mercado@gmail.com" 
+    }
+}

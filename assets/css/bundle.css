@@ -1,0 +1,97 @@
+.SysHeight,
+.left-div,
+.right-div {
+  height: 100%;
+}
+
+.SysPadding,
+.left-div {
+  padding: 0;
+}
+
+.lightBlue {
+  color: #3498db;
+}
+
+.navy {
+  color: #2c3e50;
+}
+
+.red {
+  color: #e74c3c;
+}
+
+.white {
+  color: #ecf0f1;
+}
+
+.blue {
+  color: #2980b9;
+}
+
+.gray {
+  color: #777;
+}
+
+.black {
+  color: #000;
+}
+
+.SysMargin {
+  margin: 3em;
+}
+
+.site-container {
+  font-family: Roboto,sans-serif;
+  height: 100%;
+  cursor: default;
+}
+
+.left-div {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.right-div {
+  padding: 0;
+  background: #2c3e50;
+}
+
+@media all and (min-width:320px)and (max-width:529px) {
+  .left-div,
+  .right-div {
+    text-align: center;
+  }
+}
+
+@media all and (min-width:530px)and (max-width:767px) {
+  .left-div,
+  .right-div {
+    text-align: center;
+  }
+}
+
+.modal-primary {
+  margin: 0 auto;
+}
+#editor {
+  height: 100%;
+  width: 100%;
+}
+.header {
+  text-align: center;
+  background: #fff;
+}
+
+.header .logo {
+  padding: .4em;
+  width: 60px;
+  height: 60px;
+}

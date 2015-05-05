@@ -1,0 +1,202 @@
+.SysHeight,
+.left-div,
+.right-div {
+  height: 100%;
+}
+
+.SysPadding,
+.left-div {
+  padding: 0;
+}
+
+.left-div,
+.right-div {
+  display: -webkit-flex;
+}
+
+.lightBlue {
+  color: #3498db;
+}
+
+.navy {
+  color: #2c3e50;
+}
+
+.red {
+  color: #e74c3c;
+}
+
+.white {
+  color: #ecf0f1;
+}
+
+.blue {
+  color: #2980b9;
+}
+
+.gray {
+  color: #777;
+}
+
+.black {
+  color: #000;
+}
+
+.SysMargin {
+  margin: 3em;
+}
+
+.site-container {
+  font-family: Roboto,sans-serif;
+  height: 100%;
+  cursor: default;
+}
+
+.left-div {
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.right-div {
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0;
+  background: #2c3e50;
+}
+
+@media all and (min-width:320px)and (max-width:529px) {
+  .left-div,
+  .right-div {
+    text-align: center;
+  }
+}
+
+@media all and (min-width:530px)and (max-width:767px) {
+  .left-div,
+  .right-div {
+    text-align: center;
+  }
+}
+
+.modal-primary {
+  margin: 0 auto;
+}
+.header h1 {
+  font-size: 5em;
+  margin: 0;
+  font-weight: 500;
+}
+
+@media all and (min-width:320px)and (max-width:529px) {
+  .header h1 {
+    font-size: 3em;
+  }
+}
+
+@media all and (min-width:530px)and (max-width:767px) {
+  .header h1 {
+    font-size: 3em;
+  }
+}
+.job h1 {
+  font-size: 1.4em;
+  margin: 0;
+  padding: 0;
+}
+
+.job .second-header {
+  font-size: 80%;
+  margin: 0;
+  padding-left: 1em;
+  cursor: pointer;
+}
+
+.job .mui-flat-button {
+  background-color: #2c3e50;
+}
+
+.job .mui-flat-button:hover {
+  background-color: #ecf0f1;
+}
+
+.job-modal {
+  text-align: center;
+}
+
+.job-modal h1 {
+  font-size: 1.5em;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+}
+
+.job-modal h2 {
+  font-size: 1.1em;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+}
+
+.job-modal li {
+  padding: .5em;
+}
+.project-list li {
+  padding: 1em;
+}
+
+.toolbar {
+  background: #fff;
+}
+
+.modal-dialog {
+  width: 75%;
+}
+
+.mui-toolbar-group.mui-right .mui-icon-button {
+  padding: 0;
+}
+
+.mui-toolbar-group.mui-right .fa.mui-font-icon {
+  padding-left: 14px;
+}
+
+.mui-icon-button-tooltip {
+  text-transform: capitalize;
+}
+
+.project h1 {
+  font-size: 1.4em;
+  margin: 0;
+  padding: 0;
+}
+
+.project .second-header {
+  margin: 0;
+  padding-left: 1em;
+  cursor: pointer;
+  color: gray;
+}
+
+.project .mui-flat-button {
+  background-color: #fff;
+}
+
+.project .mui-flat-button:hover {
+  background-color: rgba(0,188,212,.1);
+}
+
+.disabled {
+  opacity: .2;
+}
