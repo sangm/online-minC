@@ -1,5 +1,6 @@
 import React from 'react'
 import AceEditor from 'react-ace'
+import AppConstants from '../../constants/AppConstants.js'
 
 require('brace/mode/java')
 require('brace/theme/github')
@@ -9,6 +10,8 @@ export default React.createClass({
        console.log(val); 
     },
     render() {
+        console.log(AppConstants)
+
         return (
             <AceEditor
                 mode="java"
