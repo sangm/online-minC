@@ -1,3 +1,35 @@
+.header {
+  text-align: center;
+  background: #fff;
+}
+
+.header .logo {
+  padding: .4em;
+  width: 60px;
+  height: 60px;
+}
+.mui-tabs-container .mui-tab-item-container {
+  background-color: #2980B9;
+}
+
+.mui-ink-bar {
+  background-color: #3498DB;
+}
+
+.lexer,
+.parser {
+  height: 100%;
+  padding: 1em;
+  color: #fff;
+}
+
+.tokens li {
+  padding: .5em;
+}
+
+.lexer .mui-flat-button {
+  text-transform: none;
+}
 .SysHeight,
 .left-div,
 .right-div {
@@ -84,21 +116,4 @@
 #editor {
   height: 100%;
   width: 100%;
-}
-.header {
-  text-align: center;
-  background: #fff;
-}
-
-.header .logo {
-  padding: .4em;
-  width: 60px;
-  height: 60px;
-}
-.mui-tabs-container .mui-tab-item-container {
-  background-color: #2980B9;
-}
-
-.mui-ink-bar {
-  background-color: #3498DB;
 }

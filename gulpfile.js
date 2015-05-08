@@ -53,12 +53,11 @@ gulp.task('server', function() {
 })
 
 gulp.task('reload', function() {
-    gulp.src('dist/bundle.js')
-        .pipe(connect.reload())
+    connect.reload();
 })
 
 gulp.task('watch', function() {
-    gulp.watch('src/**/*', ['build', 'less', 'reload'])
+    gulp.watch('src/**/*', ['build', 'less'])
 })
 
 gulp.task('assets', function() {

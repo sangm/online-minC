@@ -1,2 +1,3 @@
 import {Dispatcher} from 'flux'
-export new Dispatcher()
+export default new Dispatcher()
+

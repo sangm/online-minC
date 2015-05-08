@@ -4,6 +4,7 @@ import Editor from '../EditorComponent/EditorComp.jsx'
 import Result from '../ResultComponent/ResultComp.jsx'
 
 import {Grid, Row, Col} from 'react-bootstrap'
+import {FlatButton} from 'material-ui'
 
 export default React.createClass({
     
@@ -24,6 +25,18 @@ export default React.createClass({
                          md={6}
                          className="left-div">
                         <Editor />
+                        <div className="navbar-fixed-bottom">
+                            <ul className="list-unstyled list-inline">
+                                <li>
+                                    <FlatButton secondary={true}
+                                                label="Upload File" />
+                                </li>
+                                <li>
+                                    <FlatButton secondary={true}
+                                                label="Submit" />
+                                </li>
+                            </ul>
+                        </div>
                     </Col>
                     <Col xs={12} 
                          sm={6}

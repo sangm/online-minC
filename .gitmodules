@@ -1,0 +1,3 @@
+[submodule "web-service/minC"]
+	path = web-service/minC
+	url = https://github.com/sangm/minC.git

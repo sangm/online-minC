@@ -1,6 +1,8 @@
 import keyMirror from 'react/lib/keyMirror'
 
 export default keyMirror({
-    LEX: null
+    LEX: null,
+    FINISH: null,
+    PARSE: null
 });
 
